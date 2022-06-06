@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Pest Control</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="https://fontmeme.com/super-mario-font/"><img
+                    src="https://fontmeme.com/permalink/220606/7965fabb6d2f52a7eae0a88d7bc425a8.png"
+                    alt="super-mario-font" border="0"></a>
+            <img src="https://graphics.reuters.com/NINTENDO-SUPERMARIO/0100B2C01F6/images/mario.png" alt="logo"
+                id="logo">
+        </nav>
+    </header>
+    <main class="column">
+        <h2>Get your invoice by inputting the amount of baddies caught below</h2>
+        <form name="myForm" class="column">
+            <div class="row">
+                <div class="column baddies">
+                    <a href="https://fontmeme.com/super-mario-font/"><img
+                            src="https://fontmeme.com/permalink/220606/fd59f1649dfb6fa9b7ed236d49838a46.png"
+                            alt="super-mario-font" border="0"></a>
+                    <img src="pictures/cwgpsijqm6f41.webp" alt="goomba" class="baddie-image">
+                    <span>5 x Coins</span>
+                    <input type="number" name="baddie" id="goomba" placeholder="0" min="0">
+                </div>
+                <div class="column">
+                    <a href="https://fontmeme.com/super-mario-font/"><img
+                            src="https://fontmeme.com/permalink/220606/4fd035ac469955aeff6ed198ffdc6677.png"
+                            alt="super-mario-font" border="0"></a>
+                    <img src="pictures/unnamed.png" alt="bobombs" class="baddie-image">
+                    <span>7 x Coins</span>
+                    <input type="number" name="baddie" id="bobomb" placeholder="0" min="0">
+                </div>
+                <div class="column">
+                    <a href="https://fontmeme.com/super-mario-font/"><img
+                            src="https://fontmeme.com/permalink/220606/7bf168aa15121f203bb24c13c6f14d20.png"
+                            alt="super-mario-font" border="0"></a>
+                    <img src="pictures/tumblr_6317d4666592a1b67657f335c63e5197_0a19695a_540.png" alt="cheepcheep"
+                        class="baddie-image">
+                    <span>11 x Coins</span>
+                    <input type="number" name="baddie" id="cheepcheep" placeholder="0" min="0">
+                </div>
+            </div>
+            <button>Submit</button>
+            <div class="totals row">
+                <p id="goombaAccumulator">0 x Goombas</p>
+                <p id="bobombAccumulator">0 x Bob-ombs</p>
+                <p id="cheepcheepAccumulator">0 x Cheep-cheeps</p>
+                <span>=</span>
+                <p id="totals">
+                    <span id="totalCoins">0</span>
+                    <span>coins</span>
+                </p>
+            </div>
+        </form>
+    </main>
+    <footer class="column">
+        <a href="https://fontmeme.com/super-mario-font/"><img
+                src="https://fontmeme.com/permalink/220606/eadc70f9bba809aed40a4734be0ad9d6.png" alt="super-mario-font"
+                border="0"></a>
+        <address class="column">
+            <p>Email: <a href="mailto:mariopestcontrol@mariopc.com">mariopestcontrol@mariopc.com</a></p>
+            <p>Website: <a href="#">mariopestcontrol.com</a></p>
+            <p>Location: Mushroom Alley 13</p>
+        </address>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

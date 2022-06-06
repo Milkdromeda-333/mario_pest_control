@@ -1,0 +1,130 @@
+:root {
+    --red: #ff0000;
+    /* nav */
+    --blue: #0000ff;
+    --brown: #996611;
+    /* accents */
+    --yellow: #ffff00;
+    /* background */
+    --text: 'Kdam Thmor Pro', sans-serif;
+}
+
+body {
+    background-color: var(--yellow);
+    margin: 0;
+    font-family: var(--text);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+nav #logo {
+    width: 10%;
+}
+
+nav img:first-of-type {
+    width: 80%;
+    height: 70%;
+}
+
+nav a {
+    color: var(--red);
+}
+
+main {
+    padding: 10px 10px 0px;
+}
+
+h2 {
+    color: var(--red);
+    font-size: 30px;
+}
+
+/* form */
+
+form {
+    width: 100%;
+    margin: 0px;
+}
+
+
+.baddie-image {
+    width: 150px;
+    height: 150px;
+}
+
+button {
+    width: 110px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--text);
+}
+
+button:hover {
+    outline: 4px solid var(--red);
+}
+
+.row div {
+    margin: 5%;
+}
+
+/* totals */
+
+.totals {
+    background-color: var(--red);
+    width: 110%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#totals span:first-of-type {
+    display: block;
+    text-align: center;
+}
+
+#totals span:nth-of-type(2) {
+    border-top: 2px solid var(--blue);
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--blue);
+    color: var(--yellow);
+    width: 100%;
+    padding: 15px;
+}
+
+footer a {
+    color: red;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Media Queries */
